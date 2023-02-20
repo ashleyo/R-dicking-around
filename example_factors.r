@@ -1,3 +1,6 @@
+# there is a light introduction to chi-squared at
+# https://www.scribbr.com/statistics/chi-square-test-of-independence/
+
 sales <- read.csv("yearly_sales.csv")
 sales_group <- vector(mode = "character", length = length(sales$sales_total))
 
